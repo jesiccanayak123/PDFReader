@@ -1,0 +1,5 @@
+flask
+python-dotenv
+pyPDF2
+openai>=1.0.0
+flask-cors
