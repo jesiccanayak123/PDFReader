@@ -1,0 +1,55 @@
+/* frontend/src/App.css */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 20px; /* Add some padding around the content */
+}
+
+.summarizer-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.summary-content pre {
+  white-space: pre-wrap;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.loading {
+  color: #666;
+  font-style: italic;
+}
+
+.error-message {
+  color: #dc3545;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+/* Add these for the text display */
+.extracted-text {
+  text-align: left;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 20px 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.summary-box {
+  background: #e9f5ff;
+  border-left: 4px solid #2196F3;
+  padding: 15px;
+  margin: 20px 0;
+  text-align: left;
+}
